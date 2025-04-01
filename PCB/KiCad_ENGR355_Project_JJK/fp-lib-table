@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ENGR355")(type "KiCad")(uri "${POV_PROJ}/JJK-ENGR355/ENGR355.pretty")(options "")(descr ""))
+)

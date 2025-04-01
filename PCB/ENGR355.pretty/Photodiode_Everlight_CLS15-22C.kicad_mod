@@ -1,0 +1,256 @@
+(footprint "Photodiode_Everlight_CLS15-22C"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "KPS-5130 photodiode RGB sensor")
+	(property "Reference" "D17"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "433d9d55-d6a6-4f10-981c-e916f2236413")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CLS15-22C/L213G/TR8"
+		(at 0.6 2.6 0)
+		(layer "F.Fab")
+		(uuid "ed290a14-c83e-40b0-8377-2216e32e3185")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "pov355:Photodiode_Everlight_CLS15-22C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "715120f9-cd03-4ef4-8881-f99057d9526f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409111033_Everlight-Elec-CLS15-22C-L213G-TR8_C131239.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b94fbd32-697b-4550-b986-0088b2ec0176")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Photodiode, filled shape"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e267166-bdaf-4e4c-9295-492200b59fb0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB Rotation Offset" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37a095b3-301c-4b23-8d13-19247b2841dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part #" "C131239"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf5e122f-771e-4a8a-b65d-7f4318a571b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.9 1.5)
+		(end 1.9 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "15eab223-3f39-4933-bc41-07cc04aa6832")
+	)
+	(fp_line
+		(start 1.9 -1.5)
+		(end -1.9 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d497e34f-a5d9-4e6d-82ad-50ef1dd2efc1")
+	)
+	(fp_circle
+		(center -2.3 1.7)
+		(end -2.15 1.7)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ef42041e-af8d-40d4-b008-61bda77b3998")
+	)
+	(fp_line
+		(start -2.5 -1.75)
+		(end -2.5 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb1714a9-7a7b-48fd-a69b-3f638adb6121")
+	)
+	(fp_line
+		(start -2.5 -1.75)
+		(end 2.5 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b75ed22-e253-4e6c-ba56-b37e27d19e7f")
+	)
+	(fp_line
+		(start 2.5 1.75)
+		(end -2.5 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04ae2b53-d8f4-4f90-9a0b-e57cd1c40e43")
+	)
+	(fp_line
+		(start 2.5 1.75)
+		(end 2.5 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a013d06c-992e-4a4b-a22c-eceeb16d1c4a")
+	)
+	(fp_line
+		(start -1.8 -1.4)
+		(end -1.8 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7073f1fb-243f-43b7-a675-b5f830350d67")
+	)
+	(fp_line
+		(start -1.8 1.4)
+		(end 1.8 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d830b5a3-9e64-4813-ae62-c70db019436a")
+	)
+	(fp_line
+		(start 1.8 -1.4)
+		(end -1.8 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3daeaf71-3504-4c9a-9b7c-88800ec46923")
+	)
+	(fp_line
+		(start 1.8 1.4)
+		(end 1.8 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "854962bb-c097-4b66-b985-d70d390e42aa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.25 -2.45 0)
+		(layer "F.Fab")
+		(uuid "dff53fb3-6df5-4c6c-ab81-7401e2bd589e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.6 -0.7)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "75399f70-e23e-4d99-9cf8-f2fc6322f79f")
+	)
+	(pad "1" smd roundrect
+		(at 1.6 0.7)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "fe217ede-6254-4e1b-9185-32ca11c87ef7")
+	)
+	(pad "2" smd roundrect
+		(at -1.6 -0.7)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c19fe5eb-0f36-45a5-abba-1a6e20cb86ec")
+	)
+	(pad "2" smd roundrect
+		(at -1.6 0.7)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f54f3598-9948-48cb-9d87-997d76a3e658")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Kingbright_KPS-5130.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,1 @@
+Change symbol C4 from 'Device:C' to 'Device:C_Small': OK
